@@ -6,7 +6,7 @@ $(document).ready(function () {
 
 
     btn.addEventListener("click", function () {
-        alert("click")
+        window.alert("click")
         $.getJSON(JSON_API, function(data) {
             window.alert(data);
         });
